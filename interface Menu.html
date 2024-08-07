@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="inter.css">
+    
+    <title>Interface Usuário</title>
+
+</head>
+
+<body>
+    <header class="cabeçalho">
+        <nav class="menu">
+            <div class="Logo">
+                <img src="Design sem nome (1).png" alt="Balança">
+            </div>
+            <div class="div-list">
+                <ul>
+                    <li>
+                        <a href="#">Inicio</a>
+                    </li>
+
+                    <li class="Calculadora">
+                        <a href="#">Calculadoras</a>
+                        <div class="dropdowncalc">
+                            <a href="#">Taxa Metebólica Basal(TMB)</a>
+                            <a href="#">Aumento de Massa Muscular</a>
+                            <a href="#">Queima de gordura</a>
+                        </div>
+                    </li>
+                    <li class="Macronutriente">
+                        <a href="#">Macronutrientes</a>
+                        <div class="dropdownmacro">
+                            <a href="#">Proteínas Diárias</a>
+                            <a href="#">Carboidratos Diários</a>
+                            <a href="#">Gordura</a>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#">Ingestão de Água</a>
+                    </li>
+                    <li>
+                        <a href="#">Taxa de Atividade Física</a>
+                    </li>
+                    <li>
+                        <a href="#">Sobre</a>
+                    </li>
+                </ul>
+            </div>
+
+        </nav>
+    </header>
+<div class="blocototal">
+    <div class="titulo">
+        <center>
+            <h3>Para começarmos, Iremos calcular primeiramente a seu perfil de Peso Ideal!</h3>
+</center>
+    </div>
+</div>
+<div class="area">
+    <div class="container">
+        <h1>Calculadora de IMC</h1>
+        <div class="input_area">
+            <h2>Altura (cm) </h2>
+            <input id="altura" type="number">
+        </div>
+        <div class="input_area">
+            <h2>Peso (kg) </h2>
+            <input id="peso" type="number">
+            </div>
+            <button onclick="calculate()" class="butao1">Realizar cálculo</button>
+<textarea name="" id="minha_area" rows="4"></textarea>
+    </div>
+    <script src="inter.js"></script>
+</body>
+
+</html>
+
