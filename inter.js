@@ -13,7 +13,7 @@ if (imc < 18.5) {
   } else if (imc < 39.9) {
     text="Cuidado, você está com o seu peso alto!"
   } else if (imc > 39.9) {
-    text="Gordo demais, feche a boca kkkkkk"
+    text="Tome cuidado, você está com obesidade morbida!"
   }
 
   document.getElementById("minha_area").innerText=text
